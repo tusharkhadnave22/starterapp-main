@@ -10,9 +10,6 @@ import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 import org.springframework.stereotype.Component;
 
-import lombok.Data;
-import lombok.NoArgsConstructor;
-
 @Component
 
 @Document(collection = "User")

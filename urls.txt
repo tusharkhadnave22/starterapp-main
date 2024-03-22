@@ -1,0 +1,15 @@
+post
+
+http://localhost:8080/users?userId=2&username=tejal
+
+get all data
+
+http://localhost:8080/users
+
+get data with particular userId
+
+http://localhost:8080/users/userId?userId=2
+
+update data score i mean
+
+http://localhost:8080/users/userId/score?userId=2&score=80

@@ -21,7 +21,12 @@ dependencies {
 	implementation 'org.projectlombok:lombok:1.18.22'
 	implementation 'org.springframework.boot:spring-boot-starter-data-mongodb'
 	implementation 'javax.validation:validation-api:2.0.1.Final'
-	
+	 // JUnit Jupiter API for writing JUnit 5 tests
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.8.2'
+    // JUnit Jupiter Engine for running JUnit 5 tests
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.8.2'
+    // Mockito Core for mocking dependencies in tests
+    testImplementation 'org.mockito:mockito-core:3.11.2'
 
    // testImplementation 'de.flapdoodle.embed:de.flapdoodle.embed.mongo'
 
